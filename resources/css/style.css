@@ -20,7 +20,7 @@ header {
   position: absolute;
 }
 
-header h3, ul, a{
+header, h3, ul, a{
   font-family: Helvetica;
   font-size: 1rem;
   color: white;
@@ -86,4 +86,112 @@ h1 {
   justify-content: flex-end;
   align-items: center;
   width: 1096px;
+}
+
+
+/*How it works*/
+
+section.desktop-width {
+  margin: 0 auto;
+}
+
+.howitworks {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.part {
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.howitworks-image {
+  width: 5rem;
+  height: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+.exam {
+  background-image: url("../images/paper-icon.png");
+}
+
+.fit {
+  background-image: url("../images/ruler-icon.png");
+}
+
+.del {
+  background-image: url("../images/truck-icon.png");
+}
+
+
+/*philosophy-appointments*/
+
+.philosophy-appointments {
+  display: flex;
+}
+
+.blok {
+  width: 35%;
+  margin: 0 5%;
+}
+
+.textblok {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+
+/*Footer*/
+
+footer {
+display: flex;
+justify-content: center;
+}
+
+.icon-footer {
+  background-image: url("../images/logo-black.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.5rem;
+  width: 4.5rem;
+  margin: 4rem 1rem 4rem 4rem;
+}
+
+footer h3 {
+  color: black;
+}
+
+footer .desktop-width {
+  display: flex;
+  margin-top: 5rem;
+  background-color: azure;
 }
